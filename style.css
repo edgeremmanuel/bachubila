@@ -276,8 +276,10 @@ hr{
         flex-basis: 45%;
         margin-bottom: 20px;
 }
-
-
+.footer-right{
+    text-align: right;
+}
+ 
 
 
 
