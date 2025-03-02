@@ -103,7 +103,6 @@ nav ul li a{
 @media screen and (max-width:770px){
     .banner-text h1{font-size: 44px;}
     .banner-btn a{display: block;
-    margin: 20px auto;
     }
 }
  /*--features--*/
@@ -141,13 +140,23 @@ nav ul li a{
     border-top-left-radius: 35px;
     border-bottom-right-radius: 35px;
 }
+@media screen and (max-width:770px){
+   .title-text h1{
+    font-size: 35px;
+   }
+   .features{
+    flex-basis: 100%;
+   }
+}
+
 /*--service--*/
 
 #Services{
     width: 100%;
     padding: 70px 0;
-    background: #59cbdf;
+    background: #009688;
 }
+
 .service-box{
     width: 80%;
     display: flex;
@@ -160,7 +169,7 @@ nav ul li a{
         text-align: center;
         border-radius: 8px;
         margin-bottom: 20px;
-        color: #fff;
+        color: #000;
         position: relative;
 }
 .single-service img{
@@ -173,7 +182,6 @@ nav ul li a{
     top: 0;
     border-radius: 8px;
     cursor: pointer;
-    background: linear-gradient(rgba(0,0,0,0),#009688);
     opacity: 0;
     transition: 1s;
 }
@@ -251,9 +259,23 @@ hr{
     }
 }
 
-
-
-
+#footer{
+    padding: 100px 0 20px;
+    background: #e4e4e4;
+    position: relative;
+}
+.footer-row{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-left,.footer-right{
+        padding: 20px;
+        flex-basis: 45%;
+        margin-bottom: 20px;
+}
 
 
 
